@@ -3,7 +3,7 @@ __author__ = "Jordy Andrade (https://github.com/jors2007)"
 __version__ = "1.0"
 
 # parte fraccionaria
-fraccion = float(input("Ingresa la parte fraccionaria de tu numero: "))
+fraccion = float(input("Ingresa la parte fraccionaria de tu numero ya convertido en base 2: "))
 operacion = 0
 i = 0
 cadenaBinaria = ""
