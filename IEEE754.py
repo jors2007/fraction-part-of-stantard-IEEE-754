@@ -23,7 +23,9 @@ while(i < 24):
 bits_23 = cadenaBinaria[:23]
 bits_24 = cadenaBinaria[23]
 
-
+# esta parte del codigo se encarga de redondear el numero binario
+# suponga que tiene como 5 ultimos bits 10111 y el 24 bit es 1
+# entonces para redonder a 23 bits quedaria 11000 porque ese 1 se reparte para la izquierda
 if (bits_24 == "1"):
     redondeado = bin(int(bits_23,2) + 1)[2:]
     bits_23 = redondeado.zfill(23)
